@@ -1,0 +1,139 @@
+body {
+    background: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 420px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.login-box h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.login-table td {
+    padding: 12px;
+    font-size: 14px;
+}
+
+.login-table input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.login-table button {
+    width: 100%;
+    padding: 12px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-table button:hover {
+    background: #0b5ed7;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-footer {
+    margin-top: 15px;
+    text-align: center;
+}
+/* LOGIN BOX */
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+}
+
+.login-box{
+    width: 360px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* LOGIN TABLE */
+.login-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.login-table td{
+    padding: 10px;
+}
+
+.login-table input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* BUTTON */
+.login-box button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #0d6efd;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ERROR */
+.error{
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* FOOTER LINKS */
+.login-footer{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login-footer a{
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link{
+    display: inline-block;
+    margin-top: 10px;
+}
